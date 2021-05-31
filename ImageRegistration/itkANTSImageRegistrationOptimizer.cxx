@@ -2473,7 +2473,7 @@ ANTSImageRegistrationOptimizer<TDimension, TReal>
     std::string outname = this->localANTSGetFilePrefix(this->m_OutputNamingConvention.c_str() ) + std::string(
         "thick.nii.gz");
     std::cout << " write " << outname << std::endl;
-    WriteImage<ImageType>(this->m_ThickImage, outname.c_str() );
+    // WriteImage<ImageType>(this->m_ThickImage, outname.c_str() );
     }
 
   return intfield;
