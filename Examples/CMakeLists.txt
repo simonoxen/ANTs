@@ -98,7 +98,6 @@ endmacro()
 
 
 set(CORE_ANTS_APPS
-  antsAffineInitializer
   antsJointFusion
   DenoiseImage
   SurfaceBasedSmoothing
@@ -119,6 +118,7 @@ set(CORE_ANTS_APPS
 )
 
 set(MORE_ANTS_APPS
+    antsAffineInitializer
     antsAI
     ANTSIntegrateVelocityField
     antsJointTensorFusion
